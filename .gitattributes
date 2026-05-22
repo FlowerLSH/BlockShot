@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Unity build/resource data can exceed GitHub's normal file size limit.
+*.resS filter=lfs diff=lfs merge=lfs -text
